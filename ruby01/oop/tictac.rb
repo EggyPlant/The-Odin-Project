@@ -12,6 +12,7 @@
 # needs to see pieces are X || O
 # players take turns putting pieces down
 # "Enter where you want to place your piece"
+# cant place piece outside the board
 #          1         2           3
 #____________________________________
 # 1     |        |         |         | 
