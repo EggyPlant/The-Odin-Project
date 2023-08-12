@@ -46,156 +46,66 @@ end
 
 
 def sing
-
     current_bottle = 99
-    # p "while loop current bottle: #{current_bottle}"
-    
 
-    # while current_bottle > 0
-
-    sing_line(current_bottle)        
-    
-    # wait for user input to sing next line
-
-    #current bottle -= 1
-        # go to next loop
-
-    # end
-    
-    
+    while current_bottle > 0
+        sing_line(current_bottle)        
+        # continue_story
+        current_bottle -= 5
+    end   
     # p poem(current_bottle)
 end
 
 def sing_line(current_bottle)
-
     line = "#{current_bottle} bottles of beer on the wall, #{current_bottle} bottles of beer! Take one down, pass it around #{(current_bottle - 1)} bottles of beer on the wall!"
-    
-    
-    # Tier 0
-
-    # split entire string to chars 
-     encode = line.chars
-     line.length
-     chosen_char = (97 + rand(26)).chr
-     chosen_index = 0
-     altered_list = Hash.new
+    encode = line.chars
+    chosen_index = 0
+    altered_list = Hash.new
     i = 1
 
-    while i < (5 + rand(10))
-        # p i
-        i += 1
+    slur_words(current_bottle, encode, altered_list)
 
+
+    while i < (5 + rand(10))
+        i += 1
+        chosen_char = (97 + rand(26)).chr
         chosen_index = rand(line.length)
-        
-        # while (encode[chosen_index] == " ") && (altered_list[chosen_index] == false)
-        #     #   p "first chosen index: " + chosen_index
-        # #   chosen_index = rand(line.length)
-        # #   p ""
-        # end 
+        until ('a'..'z').include?(encode[chosen_index]) || ('A'..'Z').include?(encode[chosen_index]) do 
+            # keep in mind altered_list needs to be accounted for
+            chosen_index = rand(line.length)
+        end 
 
         unless altered_list[chosen_index] == true
             if ('a'..'z').include?(encode[chosen_index]) || ('A'..'Z').include?(encode[chosen_index])
-            p encode[chosen_index]
-            p chosen_index
+            encode[chosen_index] = chosen_char
             altered_list[chosen_index] = true
+            # p encode.join
+            # p chosen_index
+            # else                 
+            #     p encode[chosen_index] + " is the result of not working"
             end
         end
 
-        
-
-        # altered list too
-
-
-
+        return encode.join
     end
 
-    # tier 1
-
-    #     just a handful of letters
-    #         counter = 0 - 10 letters for entire string
-        
-    #         while i < counter
-    #             unless line[]
-    #           line.map do |char|
-    #           end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    # p encode = line.split
-
-    # p encode[rand(5)]
-
-    # encode.map do |word|
-
-    #     # case current_bottle
-
-    #     # when 90..99
-    #     #     p "this is correct"
-    #     # end
-    
-        
-
-
-
-    #     # # p word
-    #     # unless !word.is_a?(String)
-    #     #     p word
-
-    #     # else
-    #     # p "#{word} is not a string"
-    #     # end
-
-    # end
-
-    
-
-
-
-    # # encode.each do |word|
-    
-    # #     letters = word.split("")
-
-    # #     # for i in letters do
-    # #     #     p i
-    # #     # end
-
-    # #     letters.map { |value| p value}
-        
-    # #     # unless !word.is_a?(String)
-
-    # #     #     # for word.length do
-    # #     #     #     p word
-    # #     #     # end
-    # #     #     p word
-    # #     # else
-
-    # #     # p "#{word} is not a string"
-    # #     # end
-
-    # # end
-    
-    
-
-
-
-
-# p "#{current_bottle} bottles of beer on the wall"
-# return tier
-
+    line = encode.join
+    p line
 end
 
+
+def slur_words(current_bottle, encode, altered_list)
+
+
+    case current_bottle
+    when
+
+
+
+
+
+
+end
 
 
 # def poem(cur_bottle)
