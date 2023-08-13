@@ -50,8 +50,8 @@ def sing
 
     while current_bottle > 0
         sing_line(current_bottle)        
-        # continue_story
-        current_bottle -= 5
+        continue_story
+        current_bottle -= 1
     end   
     # p poem(current_bottle)
 end
@@ -63,48 +63,65 @@ def sing_line(current_bottle)
     altered_list = Hash.new
     i = 1
 
-    slur_words(current_bottle, encode, altered_list)
+    # slur_words(current_bottle, encode, altered_list, 0)
+
+    case current_bottle
+    when 90..100
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 80..89
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 70..79
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 60..69
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 51..59
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 50
+        # p poem()
+        p "line 50"
+    when 40..49
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 30..39
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 20..29
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 10..19
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 4..9
+        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 3
+        slur_words(current_bottle, encode, altered_list, 0)
+    when 2
+        slur_words(current_bottle, encode, altered_list, 0)
+    when 1
+        # poem()
+        p "line 1"
+    end
+end
 
 
-    while i < (5 + rand(10))
+def slur_words(current_bottle, encode, altered_list, modifier)
+    i = 1 
+    chosen_index = 0
+
+    while i < (modifier)
         i += 1
         chosen_char = (97 + rand(26)).chr
-        chosen_index = rand(line.length)
+        chosen_index = rand(113)
+
         until ('a'..'z').include?(encode[chosen_index]) || ('A'..'Z').include?(encode[chosen_index]) do 
             # keep in mind altered_list needs to be accounted for
-            chosen_index = rand(line.length)
+            chosen_index = rand(113)
         end 
 
         unless altered_list[chosen_index] == true
             if ('a'..'z').include?(encode[chosen_index]) || ('A'..'Z').include?(encode[chosen_index])
-            encode[chosen_index] = chosen_char
-            altered_list[chosen_index] = true
-            # p encode.join
-            # p chosen_index
-            # else                 
-            #     p encode[chosen_index] + " is the result of not working"
+                encode[chosen_index] = chosen_char
+                altered_list[chosen_index] = true
             end
         end
-
-        return encode.join
     end
-
-    line = encode.join
-    p line
-end
-
-
-def slur_words(current_bottle, encode, altered_list)
-
-
-    case current_bottle
-    when
-
-
-
-
-
-
+    p encode.join
 end
 
 
