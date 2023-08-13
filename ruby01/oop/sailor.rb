@@ -39,7 +39,7 @@
 require 'io/console'
 
 def continue_story                                                                                                               
-  print "press any key"                                                                                                    
+#   print "press any key"                                                                                                    
   STDIN.getch                                                                                                              
   print "            \r"                                                                                                    
 end 
@@ -76,9 +76,9 @@ def sing_line(current_bottle)
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 51..59
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 50
-        # p poem()
-        p "line 50"
+    when 50        
+        poem(1)
+        # p "line 50"
     when 40..49
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 30..39
@@ -90,12 +90,12 @@ def sing_line(current_bottle)
     when 4..9
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 3
-        slur_words(current_bottle, encode, altered_list, 0)
+        poem(2)
     when 2
-        slur_words(current_bottle, encode, altered_list, 0)
+        poem(2)
     when 1
-        # poem()
-        p "line 1"
+        poem(3)
+        # p "line 1"
     end
 end
 
@@ -121,23 +121,36 @@ def slur_words(current_bottle, encode, altered_list, modifier)
             end
         end
     end
-    p encode.join
+    puts encode.join
+end
+
+def poem(place)
+
+    case place
+    when 1
+        puts "."
+        sleep(3)
+        puts ".."
+        sleep(3)
+        puts "......."
+        puts "\n"
+        print "\n"
+        puts "There used to be trees here. and a forest that smelled of milk"
+        # continue_story
+    when 2
+        p "."
+        p ".."
+        p "There used to be something here"
+    when 3
+        p "..."
+        p "Place three"
+    end
+
 end
 
 
-# def poem(cur_bottle)
-#     case cur_bottle
-#     when 50
-#         "There is a time"
-#     when 0
-#         "You wake up, having dreamt of something"
-#     end
-
-# end
-
-
 p "Its a cold december night"
-# sleep(5)
+p "Press any button to continue"
 continue_story
 sing()
 # sing_line(1, 2, 3)
