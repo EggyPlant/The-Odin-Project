@@ -149,8 +149,26 @@ def poem(place)
 end
 
 
-p "Its a cold december night"
-p "Press any button to continue"
+puts "You wonder the moonlight city alone, accompanied only by the sound of your steps on cobblestone." 
+puts "You mind wanders too"
+puts "You come to a stop suddenly, hearing the sounds of light and clamor"
+puts "A bar. Bursting with light and a noise that disrupts the peaceful night"
+puts "You walk in and stare at the backs and profile of men, none looking at you. Or anything for that matter.. but all singing"
 continue_story
 sing()
 # sing_line(1, 2, 3)
+
+
+# Things to put for line 50
+#   why do we drink
+#  what is the general story about?
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
