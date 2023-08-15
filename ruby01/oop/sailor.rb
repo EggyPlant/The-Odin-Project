@@ -128,6 +128,11 @@ def poem(place)
 
     case place
     when 1
+        puts " "
+        sleep(3)
+        puts " "
+        sleep(3)
+        puts " "
         puts "."
         sleep(3)
         puts ".."
@@ -150,10 +155,17 @@ end
 
 
 puts "You wonder the moonlight city alone, accompanied only by the sound of your steps on cobblestone." 
+sleep(3)
 puts "You mind wanders too"
+sleep(3)
 puts "You come to a stop suddenly, hearing the sounds of light and clamor"
+sleep(3)
 puts "A bar. Bursting with light and a noise that disrupts the peaceful night"
+sleep(3)
 puts "You walk in and stare at the backs and profile of men, none looking at you. Or anything for that matter.. but all singing"
+sleep(3)
+puts ".........."
+puts "press any key"
 continue_story
 sing()
 # sing_line(1, 2, 3)
@@ -162,12 +174,13 @@ sing()
 # Things to put for line 50
 #   why do we drink
 #  what is the general story about?
-#
-#
-#
-#
-#
-#
+#   
+#   A meditation on drinking? 
+#       Have an analysis on the drinking
+#           a. Why do people drink
+#           b. was it a dream?
+#           c. what about human suffering 
+#           d. what about this idea of a childrens song that grown troubled men are singing
 #
 #
 #
