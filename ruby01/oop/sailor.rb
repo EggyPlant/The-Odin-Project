@@ -147,8 +147,17 @@ def poem(place)
         p ".."
         p "There used to be something here"
     when 3
-        p "..."
-        p "Place three"
+        puts "..."
+        puts "The warmth of the sun is becoming a little too hot now, tanning your skin."
+        puts "The ground where you took your nap is mostly rock and the rest of the mountain is grass."
+        puts "Looking out to the rest of the land that rolls over to the horizon, the clouds are dark and approaching"
+        puts "You hear the mighty thunder and listen to what the gods have to say"
+        puts "Time for you to head back"
+        puts "You pack up your bag and set off again, back to where you came from"
+        # puts "You're back on the boat, listening to the sound of waves and seagulls"
+        # puts "Everything is gray again. Everytime you're out at sea, the feeling of solid land beneath your feet erases itself from your mind faster and faster"
+        # puts "Your time on mainland feels foreign nowadays, but being at sea makes you bitter"
+        # puts ""
     end
 
 end
@@ -163,6 +172,7 @@ sleep(3)
 puts "A bar. Bursting with light and a noise that disrupts the peaceful night"
 sleep(3)
 puts "You walk in and stare at the backs and profile of men, none looking at you. Or anything for that matter.. but all singing"
+# You walk in, 
 sleep(3)
 puts ".........."
 puts "press any key"
