@@ -154,6 +154,7 @@ def poem(place)
         puts "You hear the mighty thunder and listen to what the gods have to say"
         puts "Time for you to head back"
         puts "You pack up your bag and set off again, back to where you came from"
+        puts "Completely free"
         # puts "You're back on the boat, listening to the sound of waves and seagulls"
         # puts "Everything is gray again. Everytime you're out at sea, the feeling of solid land beneath your feet erases itself from your mind faster and faster"
         # puts "Your time on mainland feels foreign nowadays, but being at sea makes you bitter"
@@ -163,18 +164,19 @@ def poem(place)
 end
 
 
-puts "You wonder the moonlight city alone, accompanied only by the sound of your steps on cobblestone." 
+puts "Its night time and your looking for a boozing -- Anything to get your mind off work"
 sleep(3)
-puts "You mind wanders too"
+puts "Its been like this for a long time now, even though you said you wouldn't let it get this far"
 sleep(3)
-puts "You come to a stop suddenly, hearing the sounds of light and clamor"
+puts "Laboring hard out at sea; to come to land just to drink; to go back to work at sea"
 sleep(3)
-puts "A bar. Bursting with light and a noise that disrupts the peaceful night"
+puts "You find the bar you'll be drinking at tonight."
 sleep(3)
-puts "You walk in and stare at the backs and profile of men, none looking at you. Or anything for that matter.. but all singing"
-# You walk in, 
+puts "back again, in your old ways"
 sleep(3)
+puts "Inside, they're already singing..."
 puts ".........."
+sleep(3)
 puts "press any key"
 continue_story
 sing()
@@ -185,13 +187,17 @@ sing()
 #   why do we drink
 #  what is the general story about?
 #   
-#   A meditation on drinking? 
-#       Have an analysis on the drinking
-#           a. Why do people drink
-#           b. was it a dream?
-#           c. what about human suffering 
-#           d. what about this idea of a childrens song that grown troubled men are singing
-#
-#
-#
-#
+#   Back again, in your old ways
+#   You sustain a bitter cycle
+#   work at sea, to come to land to drink, to go back to work at sea
+#   First part, you have just come back from sea, to go find a drink to drown yourself
+#   Second part, you find yourself woken up at sea 
+#   third part, dreaming of release which is ambiguous if you die
+#   but fourth part, completely free, you break the cycle and can leave 
+
+
+
+
+
+
+
