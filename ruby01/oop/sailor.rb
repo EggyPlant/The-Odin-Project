@@ -128,35 +128,32 @@ def poem(place)
 
     case place
     when 1
-        puts " "
-        sleep(3)
-        puts " "
-        sleep(3)
-        puts " "
-        puts "."
-        sleep(3)
-        puts ".."
-        sleep(3)
-        puts "......."
-        puts "\n"
-        print "\n"
-        puts "There used to be trees here. and a forest that smelled of milk"
+        puts "All the light is drained from this place"
+        puts "The skies are overcast, the water reflects the gray, the people are gray"
+        puts "The feeling of solid land beneath your feet flees your mind faster everytime you come out to sea"
+        puts "Sometimes you wake up and don't recall anything other than the sea"
         # continue_story
+        # this is line 60 => pt 2
+        # you find yourself back at sea
+        # the water
+        # overcast skies, and endless blue gray water
+        # puts "Everything is gray again. Everytime you're out at sea, the feeling of solid land beneath your feet erases itself from your mind faster and faster"
     when 2
-        p "."
-        p ".."
-        p "There used to be something here"
+        # So, this is now line 30 => pt 3
+        # you find yourself in a dreamy place
     when 3
-        puts "..."
+        puts "Sun"
+        puts "Warmth"
+        puts "sunlight"
         puts "The warmth of the sun is becoming a little too hot now, tanning your skin."
         puts "The ground where you took your nap is mostly rock and the rest of the mountain is grass."
-        puts "Looking out to the rest of the land that rolls over to the horizon, the clouds are dark and approaching"
+        puts "Looking over the rest of the land that rolls over the horizon you feel the wind that blows the thunderheads closer dimming the land"
         puts "You hear the mighty thunder and listen to what the gods have to say"
         puts "Time for you to head back"
-        puts "You pack up your bag and set off again, back to where you came from"
+        puts "You pack up your bag and clamber back to your car parked at the top of the trail"
         puts "Completely free"
         # puts "You're back on the boat, listening to the sound of waves and seagulls"
-        # puts "Everything is gray again. Everytime you're out at sea, the feeling of solid land beneath your feet erases itself from your mind faster and faster"
+        
         # puts "Your time on mainland feels foreign nowadays, but being at sea makes you bitter"
         # puts ""
     end
@@ -166,7 +163,7 @@ end
 
 puts "Its night time and your looking for a boozing -- Anything to get your mind off work"
 sleep(3)
-puts "Its been like this for a long time now, even though you said you wouldn't let it get this far"
+puts "Drinking has become a hard habit for you now, even though you said you wouldn't let it get this far"
 sleep(3)
 puts "Laboring hard out at sea; to come to land just to drink; to go back to work at sea"
 sleep(3)
@@ -194,6 +191,11 @@ sing()
 #   Second part, you find yourself woken up at sea 
 #   third part, dreaming of release which is ambiguous if you die
 #   but fourth part, completely free, you break the cycle and can leave 
+
+# can be structered differently
+# to progress better instead of line 50, line 2, line 1
+# scattered throughout maybe every 25
+# line 60 
 
 
 
