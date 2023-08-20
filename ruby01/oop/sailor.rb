@@ -128,7 +128,10 @@ def poem(place)
     when 1
         puts "In the drunken mosh pit when glass bottles and bodies are clubbed against other bodies and your eyes fail to remain open your mind rolls inside its skull and falls into the rocking rhythm of the ocean waves"
         puts "All the light is drained from this place"
-        puts "The skies are overcast, the water reflects the gray, the people are gray"
+        puts "The sea spray salts your lips and tongue and the cleans your lungs"
+        puts "The rocking and rhythm of the waves is the one thing that keeps you sane and anchored and your attachment to it is the only reliable companion in a endless horizon of gray existance"
+        puts "In the superfacial things of society, the power of nature and its indifference to how little you hinder it sweeps away the insigificant things of port"
+        # puts "The skies are overcast, the water reflects the gray, the people are gray"
         puts "The feeling of solid land beneath your feet flees your mind faster everytime you come out to sea"
         # continue_story
         # this is line 60 => pt 2
@@ -139,24 +142,24 @@ def poem(place)
     when 2
         # So, this is now line 30 => pt 3
         # you find yourself in a dreamy place
-        puts "You drunk yourself blind"
-        puts "Your eyes can't discern any objects from any another with everything existing on a single plane of depth"
-        puts "The blinding darkness inside your cabin of pitch black nothingness is "
+        # washing away the sea from your soul
+        # cleansing yourself of the drink and sea and old way of living and its interpreted through this dream area
+
+        puts "You drink yourself blind"
+        puts "Your eyes can't discern objects from any other thing with everything existing on a single plane of matter"
+        puts "The blinding darkness inside your cabins pitch black nothingness is a pure white sun bleaching your retinas"
+        puts "You hear the breeze give life to the flow of tall grass and berry bushes around you yourself being at the epicenter of it like a giant ameoba"
+        puts "Are you dreaming?"
+        puts "You feel the grass on your body"
     when 3
-        puts "Sun"
-        puts "Warmth"
-        puts "sunlight"
         puts "The warmth of the sun is becoming a little too hot now, tanning your skin."
         puts "The ground where you took your nap is mostly rock and the rest of the mountain is grass."
-        puts "Looking over the rest of the land that rolls over the horizon you feel the wind that blows the thunderheads closer dimming the land"
+        puts "Looking over the rest of the land that rolls over the horizon you feel the wind that blows the thunderheads across the vast blue ocean sky"
         puts "You hear the mighty thunder and listen to what the gods have to say"
         puts "Time for you to head back"
         puts "You pack up your bag and clamber back to your car parked at the top of the trail"
         puts "Completely free"
-        # puts "You're back on the boat, listening to the sound of waves and seagulls"
         
-        # puts "Your time on mainland feels foreign nowadays, but being at sea makes you bitter"
-        # puts ""
     end
 
 end
@@ -198,6 +201,12 @@ sing()
 # scattered throughout maybe every 25
 # line 60 
 
+# You were on the mountain the whole time
+# Slowly coming to the realization of being free
+# so the rocking of the boat and being in the dreamy place is really you asleep on the mountain
+# the singing is like a howling, the gray is the thunderheads coming closer
+# The motion of the boat is like a comfort => the comfort of sleeping on a mountain
+# comfort => soothing of nature mountain => healing
 
 
 
