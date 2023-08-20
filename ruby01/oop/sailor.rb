@@ -66,27 +66,15 @@ def sing_line(current_bottle)
     # slur_words(current_bottle, encode, altered_list, 0)
 
     case current_bottle
-    when 90..100
+    when 66..100
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 80..89
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 70..79
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 60..69
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 51..59
+    when 65
+        poem(1)
+    when 51..64
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 50        
         poem(1)
-    when 40..49
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 30..39
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 20..29
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 10..19
-        slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 4..9
+    when 4..49
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 3
         poem(2)
@@ -126,13 +114,14 @@ def poem(place)
 
     case place
     when 1
-        puts "In the drunken mosh pit when glass bottles and bodies are clubbed against other bodies and your eyes fail to remain open your mind rolls inside its skull and falls into the rocking rhythm of the ocean waves"
+        puts "In the drunken mosh pit of the bar when glass bottles and bodies are clubbed against other bodies and your eyes fail to remain open your mind rolls inside its skull and falls into the rocking rhythm of the ocean waves"
         puts "All the light is drained from this place"
-        puts "The sea spray salts your lips and tongue and the cleans your lungs"
+        puts "The sea spray salts your lips and tongue and cleans your lungs"
         puts "The rocking and rhythm of the waves is the one thing that keeps you sane and anchored and your attachment to it is the only reliable companion in a endless horizon of gray existance"
-        puts "In the superfacial things of society, the power of nature and its indifference to how little you hinder it sweeps away the insigificant things of port"
+        puts "In the superfacial things of society, the power of nature and its indifference to how little you hinder it sweeps away the superficial city energy"
         # puts "The skies are overcast, the water reflects the gray, the people are gray"
         puts "The feeling of solid land beneath your feet flees your mind faster everytime you come out to sea"
+        # addiction to drinking/sea because of the reliability of it, but the reliability is what is harmful
         # continue_story
         # this is line 60 => pt 2
         # you find yourself back at sea
@@ -159,7 +148,7 @@ def poem(place)
         puts "Time for you to head back"
         puts "You pack up your bag and clamber back to your car parked at the top of the trail"
         puts "Completely free"
-        
+
     end
 
 end
