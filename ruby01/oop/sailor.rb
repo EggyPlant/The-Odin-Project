@@ -78,7 +78,6 @@ def sing_line(current_bottle)
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 50        
         poem(1)
-        # p "line 50"
     when 40..49
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 30..39
@@ -95,7 +94,6 @@ def sing_line(current_bottle)
         poem(2)
     when 1
         poem(3)
-        # p "line 1"
     end
 end
 
@@ -128,10 +126,10 @@ def poem(place)
 
     case place
     when 1
+        puts "In the drunken mosh pit when glass bottles and bodies are clubbed against other bodies and your eyes fail to remain open your mind rolls inside its skull and falls into the rocking rhythm of the ocean waves"
         puts "All the light is drained from this place"
         puts "The skies are overcast, the water reflects the gray, the people are gray"
         puts "The feeling of solid land beneath your feet flees your mind faster everytime you come out to sea"
-        puts "Sometimes you wake up and don't recall anything other than the sea"
         # continue_story
         # this is line 60 => pt 2
         # you find yourself back at sea
@@ -141,6 +139,9 @@ def poem(place)
     when 2
         # So, this is now line 30 => pt 3
         # you find yourself in a dreamy place
+        puts "You drunk yourself blind"
+        puts "Your eyes can't discern any objects from any another with everything existing on a single plane of depth"
+        puts "The blinding darkness inside your cabin of pitch black nothingness is "
     when 3
         puts "Sun"
         puts "Warmth"
