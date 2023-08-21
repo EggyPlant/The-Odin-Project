@@ -70,11 +70,11 @@ def sing_line(current_bottle)
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 65
         poem(1)
-    when 51..64
+    when 36..64
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
-    when 50        
+    when 35        
         poem(2)
-    when 5..49
+    when 5..34
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 4
         puts ".."
@@ -92,10 +92,13 @@ def slur_words(current_bottle, encode, altered_list, modifier)
     i = 1 
     chosen_index = 0
 
+
     while i < (modifier)
         i += 1
         chosen_char = (97 + rand(26)).chr
         chosen_index = rand(113)
+
+
 
         until ('a'..'z').include?(encode[chosen_index]) || ('A'..'Z').include?(encode[chosen_index]) do 
             # keep in mind altered_list needs to be accounted for
@@ -110,7 +113,7 @@ def slur_words(current_bottle, encode, altered_list, modifier)
         end
     end
     puts encode.join
-    sleep(0.3)
+    sleep(0.25)
 end
 
 def poem(place)
@@ -131,24 +134,12 @@ def poem(place)
         sleep(3)
         puts "The rocking and rhythm of the waves is the one thing that keeps you sane and anchored and your attachment to it is the only reliable companion in a endless horizon of gray existance"
         sleep(3)
-        # puts "In the superfacial things of society, the power of nature and its indifference to how little you hinder it sweeps away the superficial city energy"
-        # puts "The skies are overcast, the water reflects the gray, the people are gray"
         puts "The feeling of solid land beneath your feet flees your mind faster everytime you come out to sea"
         sleep(3)
-        # addiction to drinking/sea because of the reliability of it, but the reliability is what is harmful
-        # continue_story
-        # this is line 60 => pt 2
-        # you find yourself back at sea
-        # the water
-        # overcast skies, and endless blue gray water
-        # puts "Everything is gray again. Everytime you're out at sea, the feeling of solid land beneath your feet erases itself from your mind faster and faster"
-        puts ".........."
+        puts "....."
         sleep(3)
     when 2
-        # So, this is now line 30 => pt 3
-        # you find yourself in a dreamy place
-        # washing away the sea from your soul
-        # cleansing yourself of the drink and sea and old way of living and its interpreted through this dream area
+
         puts "."
         sleep(3)
         puts ".."
@@ -167,15 +158,10 @@ def poem(place)
         sleep(3)
         puts "You feel the grass on your body"
         sleep(3)
-        puts ".........."
+        puts "....."
         sleep(3)
 
     when 3
-        puts "."
-        sleep(3)
-        puts ".."
-        sleep(3)
-        puts "..."
         sleep(3)
         puts "The warmth of the sun is becoming a little too hot now, tanning your skin."
         sleep(3)
@@ -206,8 +192,8 @@ puts "You find the bar you'll be drinking at tonight."
 sleep(3)
 puts "back again, in your old ways"
 sleep(3)
-puts "Inside, they're already singing..."
-puts ".........."
+puts "Inside, they're already singing"
+puts "....."
 sleep(3)
 puts "press any key"
 continue_story
