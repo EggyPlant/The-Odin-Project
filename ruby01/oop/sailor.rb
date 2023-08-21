@@ -73,13 +73,15 @@ def sing_line(current_bottle)
     when 51..64
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
     when 50        
-        poem(1)
-    when 4..49
+        poem(2)
+    when 5..49
         slur_words(current_bottle, encode, altered_list, (100 - current_bottle))
+    when 4
+        puts ".."
     when 3
-        poem(2)
+        puts "..."
     when 2
-        poem(2)
+        puts "......"
     when 1
         poem(3)
     end
@@ -108,19 +110,31 @@ def slur_words(current_bottle, encode, altered_list, modifier)
         end
     end
     puts encode.join
+    sleep(0.3)
 end
 
 def poem(place)
 
     case place
     when 1
+        puts "."
+        sleep(3)
+        puts ".."
+        sleep(3)
+        puts "..."
+        sleep(3)
         puts "In the drunken mosh pit of the bar when glass bottles and bodies are clubbed against other bodies and your eyes fail to remain open your mind rolls inside its skull and falls into the rocking rhythm of the ocean waves"
+        sleep(3)
         puts "All the light is drained from this place"
-        puts "The sea spray salts your lips and tongue and cleans your lungs"
+        sleep(3)
+        puts "The sea spray salts your lips and tongue and clears your lungs"
+        sleep(3)
         puts "The rocking and rhythm of the waves is the one thing that keeps you sane and anchored and your attachment to it is the only reliable companion in a endless horizon of gray existance"
-        puts "In the superfacial things of society, the power of nature and its indifference to how little you hinder it sweeps away the superficial city energy"
+        sleep(3)
+        # puts "In the superfacial things of society, the power of nature and its indifference to how little you hinder it sweeps away the superficial city energy"
         # puts "The skies are overcast, the water reflects the gray, the people are gray"
         puts "The feeling of solid land beneath your feet flees your mind faster everytime you come out to sea"
+        sleep(3)
         # addiction to drinking/sea because of the reliability of it, but the reliability is what is harmful
         # continue_story
         # this is line 60 => pt 2
@@ -128,27 +142,55 @@ def poem(place)
         # the water
         # overcast skies, and endless blue gray water
         # puts "Everything is gray again. Everytime you're out at sea, the feeling of solid land beneath your feet erases itself from your mind faster and faster"
+        puts ".........."
+        sleep(3)
     when 2
         # So, this is now line 30 => pt 3
         # you find yourself in a dreamy place
         # washing away the sea from your soul
         # cleansing yourself of the drink and sea and old way of living and its interpreted through this dream area
-
+        puts "."
+        sleep(3)
+        puts ".."
+        sleep(3)
+        puts "..."
+        sleep(3)
         puts "You drink yourself blind"
+        sleep(3)
         puts "Your eyes can't discern objects from any other thing with everything existing on a single plane of matter"
+        sleep(3)
         puts "The blinding darkness inside your cabins pitch black nothingness is a pure white sun bleaching your retinas"
+        sleep(3)
         puts "You hear the breeze give life to the flow of tall grass and berry bushes around you yourself being at the epicenter of it like a giant ameoba"
+        sleep(3)
         puts "Are you dreaming?"
+        sleep(3)
         puts "You feel the grass on your body"
-    when 3
-        puts "The warmth of the sun is becoming a little too hot now, tanning your skin."
-        puts "The ground where you took your nap is mostly rock and the rest of the mountain is grass."
-        puts "Looking over the rest of the land that rolls over the horizon you feel the wind that blows the thunderheads across the vast blue ocean sky"
-        puts "You hear the mighty thunder and listen to what the gods have to say"
-        puts "Time for you to head back"
-        puts "You pack up your bag and clamber back to your car parked at the top of the trail"
-        puts "Completely free"
+        sleep(3)
+        puts ".........."
+        sleep(3)
 
+    when 3
+        puts "."
+        sleep(3)
+        puts ".."
+        sleep(3)
+        puts "..."
+        sleep(3)
+        puts "The warmth of the sun is becoming a little too hot now, tanning your skin."
+        sleep(3)
+        puts "The ground where you took your nap is mostly rock and the rest of the mountain is grass."
+        sleep(3)
+        puts "Looking over the rest of the land that rolls over the horizon you feel the wind that blows the thunderheads across the vast blue ocean sky"
+        sleep(3)
+        puts "You hear the mighty thunder and listen to what the gods have to say"
+        sleep(3)
+        puts "Time for you to head back"
+        sleep(3)
+        puts "You pack up your bag and clamber back to your car parked at the top of the trail"
+        sleep(3)
+        puts "Completely free"
+        sleep(10)
     end
 
 end
@@ -158,7 +200,7 @@ puts "Its night time and your looking for a boozing -- Anything to get your mind
 sleep(3)
 puts "Drinking has become a hard habit for you now, even though you said you wouldn't let it get this far"
 sleep(3)
-puts "Laboring hard out at sea; to come to land just to drink; to go back to work at sea"
+puts "Laboring hard out at sea; to come to land just to drink; to prepare going back out at sea"
 sleep(3)
 puts "You find the bar you'll be drinking at tonight."
 sleep(3)
@@ -197,7 +239,8 @@ sing()
 # The motion of the boat is like a comfort => the comfort of sleeping on a mountain
 # comfort => soothing of nature mountain => healing
 
-
+# future reference =>
+# when you get to the end of the story, lines 10 and less, start to shorten what they're saying, like as if the thought is wandering away, with the string getting shorter and shorter
 
 
 
