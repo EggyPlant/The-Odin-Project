@@ -2,7 +2,7 @@
 # Lets play a game!
 
 # Need board
-# 3x3 where a tile can only be used once (bool)
+# 3x3 where a tile can only be used once (bool) (hash map?)
 
 # two players
 # class(?) Players can have method => put piece down
@@ -33,6 +33,41 @@
 # hash 
 #  key of array location ([1,0]) ==> value of piece there 
 #
+
+# is the board a class? 
+
+
+class Board
+
+  attr_accessor :board
+
+  
+
+end
+
+
+
+class Players
+
+  attr_accessor :side
+
+  def initialize(side)
+    @side = side
+  end
+
+
+  def place_piece(side, tile)
+
+
+
+  end
+
+
+end
+
+
+board = Hash.new
+
 
 
 
