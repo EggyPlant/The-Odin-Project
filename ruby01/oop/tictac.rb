@@ -36,6 +36,16 @@
 
 # is the board a class? 
 
+# How can I get class player to interact with class Board
+# does the method move upwards? or downwards?
+#   side note, put the txt file in the repo so that I can work on it on mac
+# 
+
+
+# Ok so main question, is how can we get Players.place_piece() to affect a hash in board class 
+#   where check_board will also be run after each place_piece() 
+# also need to keep track of taking turns
+# 
 
 class Board
 
@@ -45,6 +55,8 @@ class Board
     # its an algorithm
     # go by each 
     # check board after each play => so something light weight not a lot of code
+
+
     
   end
 
@@ -66,7 +78,7 @@ class Players
 
 
     check_board();
-    
+
   end
 
 
