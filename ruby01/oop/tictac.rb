@@ -41,15 +41,21 @@ class Board
 
   attr_accessor :board
 
-  
+  def check_board
+    # its an algorithm
+    # go by each 
+    # check board after each play => so something light weight not a lot of code
+    
+  end
+
 
 end
-
 
 
 class Players
 
   attr_accessor :side
+
 
   def initialize(side)
     @side = side
@@ -59,14 +65,13 @@ class Players
   def place_piece(side, tile)
 
 
-
+    check_board();
+    
   end
 
 
 end
 
-
-board = Hash.new
 
 
 
