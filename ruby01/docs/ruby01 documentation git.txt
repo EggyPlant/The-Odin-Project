@@ -1,0 +1,178 @@
+Novel learning course using Ruby / The Odin Project
+But more importantly used this project to learn more about using Git
+Specifically, I had a problem of wanting to make clean repositories 
+So I needed to figure out how I can upload the directory I want into git etc.
+
+New things encountered:
+irb
+RSpec
+  - RSpec.describe methods 
+	and general testing environment setup
+		I wonder if this is what additional test setups will look like
+
+Problems encountered:
+Nested git repository not allowing total pushing of code
+	Had to manually copy source code and push into new repository; not very clean
+
+
+possible answers as to why I devoted my time learning this when its web dev and im data sci
+Just to apply myself to the programmer mindset
+	to develop a question based development environment
+		to better my programming skills
+
+8/7 Problem
+I am trying to prepare my m1 machine to have a similar dev environment with ruby 
+however there are now problems
+	First, installing ruby - this was fixed with RVM and googling
+
+	Second, now is installing gems (pry-byebug)
+		"You do not have write permissions for the /Library/Ruby/Gems/2.6.0 directory
+
+	*** solution
+		After research, there is a command that allows you to install a gem
+		locally
+		===>	gem install "gem-name" --user-install
+		note that from my RVM install, current pry-byebug gem does not work with
+		my version of Ruby (2.6.0) so I had to install an older version of pry-byebug
+		but everything works fine now
+		===>	gem install pry-byebug -v 3.9.0 --user-install
+
+	Last step was installing TOP ruby exercise repository onto my machine and now
+		my environment is all setup!
+
+
+research skills i developed in class I started to apply to outside the classroom
+
+RUBY PROJECT IDEA
+	Photo Gallery,
+		users can sign up and are given 1 single spot to post a photo
+		its an art gallery that showcases skill and potential
+			(applaud || throw popcorn!)
+			its a number in a hash or something that is keeping track
+				of the clicks, and you only need to access that number
+				to print out something like
+					"12 people threw popcorn at your artwork!"
+				and the actual "animation" that happens on the throwers
+				screen is just front end stuff and add number to persons hash
+				(lol throwers can also be "critics" by how much popcorn they throw)
+				refill popcorn stat too
+			save your popcorn throwing progress by making signing up!
+				(sign up base can be called critics something)
+			need page to talk about philosophy of the website (why 1 picture, why throw popcorn)
+			need page to ask to hire me!
+		Philosphy:
+			it brings us closer to scarcity and puts more emphasis
+			on intention/meaning/aesthetics
+
+
+	I can finally make that time sheet program for mama with ruby
+
+
+Back to a serious idea...
+	"Its like editing, everything just comes from accidents and trying"
+	I always had trouble imagining how to apply all these concepts of cs tutorials
+		into my own unique creative thing
+			until you just try enough and learn enough
+				even now is just such a premature concept of how to do something
+			its given me a lot of faith to try it out
+
+
+8/8 Ceasar cipher
+	This proved to be pretty tough.
+		Finished it after several hours and its a little messy with many conditionals
+		it works tho, for what its worth. 
+		It bothers me that it looks like amatuer code, but this is the journey I'm
+		on I guess. To get better you have to be bad first :/
+
+Substrings(key, dictionary) 
+	I haven't started yet but I looked at the top solution and its way faster than 
+	I thought it was going to be. I wouldnt even know how to get started 
+
+
+
+8/9 stock pick and bubble sort (along with two sum problem)
+
+	These were today's challenges so far, and they were demoralizing.
+	Stock pick I was able to do myself but the other two..
+	bubble sort I didn't even try. We did that in class but translating it to ruby
+	I didn't even know how to begin it. same with two sum
+	encouragements:
+		I'm only a week in, and learning is progressive. 
+			I only just begain my path of programming
+				give myself a little bit of a break
+	discouragements:
+			But it was part of the course and it was expected to know how 
+			to solve the problem. So why didn't I try to solve it
+
+
+	DRUNKEN SAILOR PROGRAM
+	each bottle they drink
+		they become more inebriated
+			their words become slurred and randomized slowly with each bottle
+			("What do we do with a drunk Sailor?!)
+			==>
+			("Hovs ap rg go zpog w vmen Sogmal?!)
+		Capitals are the same, word separation, exclamation
+	
+		button to say, next bottle between each line 
+		at bottle 50, go into a deep philosophical poem or monologue
+
+	99 bottles of beer on the wall, 99 bottles of beer!
+	Take one down, pass it around, 98 bottles of beer on the wall
+
+	
+
+tic tac toe
+	
+8/10
+	began sailor program, which came with more complications than I thought
+	needed to think how to effeciently break down the string and manipulate individual letters
+	This went through different iterations using arrays, hashes, and different
+	enumerable methods. So far ended on making one large array and with each index
+	a single character in the full string.
+	
+	Now need to find how to access non-repeated, individual characters and change them
+	while avoiding whitespaces, numbers, and punctuation.
+	Next step also will need to print out modified string
+
+
+8/23 
+sailor program finished for now
+working on tictac again
+
+school started too
+
+I find it hard to keep track of all the different material learned between practicing ruby
+and calculus
+and work
+
+Tic tac toe project is revealing some insight and problems in programming
+trying to solve rudimentary problems such as
+	Accessing hash maps from parent class
+
+Used chatgpt for insight on how to solve problems
+
+This brings up the conversation of using ai for programming
+	=> not cheating as Im not asking it to build the program for me but 
+		how to navigate the ruby syntax
+	=> How I see it, I am leveraging it the same as one would use stackoverflow
+
+Continuing this, I see the value in practicing the rudimentary skills of a beginner project
+such as tic tac toe, but the time spent on it only makes me want to jump ahead to projects
+that I want to do
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
