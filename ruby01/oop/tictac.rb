@@ -42,49 +42,81 @@
 # 
 
 
-# Ok so main question, is how can we get Players.place_piece() to affect a hash in board class 
+# Ok so main question, is how can we get Players.place_piece() to affect a hash in board class
 #   where check_board will also be run after each place_piece() 
 # also need to keep track of taking turns
 # 
 
+# class Board
+
+#   attr_accessor :board
+
+
+#   # initialize board 
+
+#   def check_board
+#     # its an algorithm
+#     # go by each 
+#     # check board after each play => so something light weight not a lot of code
+#     p "successfully called check_board"
+    
+#   end
+
+
+
+
+# end
+
+
 class Board
 
-  attr_accessor :board
-
-  def check_board
-    # its an algorithm
-    # go by each 
-    # check board after each play => so something light weight not a lot of code
-
-
-    
+  def initialize
+    @game_board = Hash.new
   end
 
+  def game_board
+    @game_board
+  end
+
+  # def callme
+  #   puts "this works great"
+  # end
 
 end
 
 
-class Players
+class Players < Board
 
-  attr_accessor :side
+  # attr_accessor :name
 
+  # def initialize(name)
 
-  def initialize(side)
-    @side = side
+  #   self.name = name
+  # end
+
+  # def initialize(name)
+  #   @name = name
+  #   # @player = player
+  # end
+
+  def place_piece(tile)
+    game_board[tile] = "hello"
+
+    puts game_board
   end
-
-
-  def place_piece(side, tile)
-
-
-    check_board();
-
-  end
-
 
 end
 
+# def play_game
+
+#   Board.callme()
 
 
+# end
 
+
+# Board = Board.new()
+John = Players.new
+John.place_piece(3)
+# play_game()
 
