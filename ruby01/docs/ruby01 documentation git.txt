@@ -163,7 +163,15 @@ that I want to do
 
 
 
-
+8/31/23
+Build a csv reader
+	Note, this idea to build social media projects and weather api's and whatnot
+	its all fancy schmancy web design, frontend stuff.
+		But I want to get into the meat of it
+		Compare a pretty looking react thing that's unoriginal or a bland looking
+		csv reader that is more practical and original and creative
+		My social media site for example. It doesn't have to be a clone and ergo look good
+		but its original. 
 
 
 
