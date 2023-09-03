@@ -192,9 +192,21 @@ Build a csv reader
 
 
 
+9/1
+Bogosort => randomize your array. If its in order, done. If not, randomize until it is.
+How to make visuals for sorting algorithms. 
 
 
-
+9/2
+New App Idea
+	Collaborative social media website where you solve calculus problems
+	With rating system akin to chess ratings
+	idea started about late night at Ethans party and at the end of the night
+	just wanting to go home and solve math problems
+	This can really connect with some people
+	Make it a cool and trendy theme to attract late night audience
+	like a lofi coding stream
+	kinda Poggers idea ngl
 
 
 
