@@ -209,6 +209,17 @@ New App Idea
 	kinda Poggers idea ngl
 
 
+9/5
+I just solved a gem error. Bless I feel like gold. gem install google-api-client was not working
+Because of Mac permission to write error
+	so I went looking for where my ruby was installed
+		So and it was in /usr/local/ and so I had to change ruby installation
+			but rvm was not working so I made a change to rbenv
+				but rbenv was not working so I went to clean up my 
+					home-brew and gcc 
+				and then rbenv worked in installing a different version of ruby
+			and I set a global ruby version for use
+		and now the gem was installed successfully!
 
 
 
