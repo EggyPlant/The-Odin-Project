@@ -231,3 +231,14 @@ Handy math tools, calculator tools
 	taxes?
 	economist calculator
 
+9/14
+"Simon says" game
+Game gives you a pattern and you have to input it back one button at a time
+CPU: red green green yellow red green yellow
+Player: red green green red yell- break => lose
+
+Make a chart
+A nice line chart as part of a guide about how something I built was made
+With pictures and stuff
+Reminder look => https://youtu.be/3GPMaizoZe8?si=ucEZ44MkdEaKMZJM&t=149
+
