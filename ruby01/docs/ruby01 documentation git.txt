@@ -242,3 +242,7 @@ A nice line chart as part of a guide about how something I built was made
 With pictures and stuff
 Reminder look => https://youtu.be/3GPMaizoZe8?si=ucEZ44MkdEaKMZJM&t=149
 
+9/14
+IMPROVEMENT TO SAILOR.RB
+	read story lines from a separate file
+
